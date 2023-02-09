@@ -16,7 +16,7 @@ const Navbar = () => {
         <img src={logoIcon} alt=""  />
 
         {/* desktop menu */}
-        <ul className="hidden md:flex">
+        <ul className="hidden md:flex font-bold">
           <li className="mx-4 list-none">Home</li>
           <li className="mx-4 list-none">About</li>
           <li className="mx-4 list-none">Features</li>
@@ -39,7 +39,7 @@ const Navbar = () => {
       </nav>
       {/* Mobile Menu */}
       {showMenu ? (
-        <ul className="absolute bg-secondarygreen flex flex-col md:hidden h-screen w-screen ">
+        <ul className="absolute bg-secondarygreen flex flex-col md:hidden h-screen w-screen font-bold ">
           <li className="m-3 list-none">Home</li>
           <li className="m-3 list-none">About</li>
           <li className="m-3 list-none">Features</li>
