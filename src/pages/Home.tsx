@@ -1,11 +1,13 @@
+import AboutSection from "../components/AboutSection";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 
 const Home = () => {
     return ( 
-        <section>
+        <section className="font-kumbh">
             <Navbar />
             <HeroSection />
+            <AboutSection />
         </section>
      );
 }
