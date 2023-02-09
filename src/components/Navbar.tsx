@@ -39,12 +39,12 @@ const Navbar = () => {
       </nav>
       {/* Mobile Menu */}
       {showMenu ? (
-        <ul className="absolute bg-secondarygreen flex flex-col md:hidden h-screen w-screen font-bold ">
-          <li className="m-3 list-none">Home</li>
-          <li className="m-3 list-none">About</li>
-          <li className="m-3 list-none">Features</li>
-          <li className="m-3 list-none">FAQs</li>
-          <li className="m-3 list-none">Contact</li>
+        <ul className="absolute bg-secondarygreen flex flex-col md:hidden h-screen w-full font-bold ">
+          <li className="p-3 list-none">Home</li>
+          <li className="p-3 list-none">About</li>
+          <li className="p-3 list-none">Features</li>
+          <li className="p-3 list-none">FAQs</li>
+          <li className="p-3 list-none">Contact</li>
         </ul>
       ) : null}
     </section>
