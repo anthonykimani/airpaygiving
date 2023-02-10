@@ -12,7 +12,7 @@ const HeroSection = () => {
           Airpay Giving eliminates the friction of giving to any organisation.
           By providing a platform for easy registration and payment{" "}
         </h2>
-        <div className="flex justify-between items-center mt-10 w-[280px]">
+        <div className="flex justify-between items-center mt-10 w-[260px]">
           <button className="text-primarygreen bg-white py-2 px-4 rounded font-bold">
             Start Giving
           </button>
