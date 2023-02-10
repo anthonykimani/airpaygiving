@@ -1,4 +1,5 @@
 import AboutSection from "../components/AboutSection";
+import BenefitsSection from "../components/BenefitsSection";
 import FeatureSection from "../components/FeatureSection";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
@@ -14,6 +15,7 @@ const Home = () => {
             <FeatureSection />
             <VideoSection />
             <ReviewSection />
+            <BenefitsSection />
         </section>
      );
 }
