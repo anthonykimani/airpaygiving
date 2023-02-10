@@ -2,6 +2,7 @@ import AboutSection from "../components/AboutSection";
 import FeatureSection from "../components/FeatureSection";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
+import ReviewSection from "../components/ReviewSection";
 import VideoSection from "../components/VideoSection";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <AboutSection />
             <FeatureSection />
             <VideoSection />
+            <ReviewSection />
         </section>
      );
 }
