@@ -1,6 +1,9 @@
 import AboutSection from "../components/AboutSection";
 import BenefitsSection from "../components/BenefitsSection";
+import ContactSection from "../components/ContactSection";
+import Faqsection from "../components/Faqsection";
 import FeatureSection from "../components/FeatureSection";
+import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import ReviewSection from "../components/ReviewSection";
@@ -18,6 +21,9 @@ const Home = () => {
             <ReviewSection />
             <BenefitsSection />
             <Subscribe />
+            <Faqsection />
+            <ContactSection />
+            <Footer />
         </section>
      );
 }
