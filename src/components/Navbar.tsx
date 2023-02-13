@@ -1,6 +1,7 @@
 import { useState } from "react";
 import registerIcon from "../assets/svg/registericon.svg";
 import logoIcon from "../assets/svg/logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -24,10 +25,13 @@ const Navbar = () => {
           <li className="mx-4 list-none">Contact</li>
         </ul>
 
-        <button className="hidden md:flex items-center rounded-sm border border-primarygreen text-primarygreen bg-white px-4 py-1 my-2">
+        <Link to="/login">
+        <button  className="hidden md:flex items-center rounded-sm border border-primarygreen text-primarygreen bg-white px-4 py-1 my-2">
             <img src={registerIcon} alt="" className="m-1" />
+            
           Register Your Organisation
         </button>
+        </Link>
         {showMenu ? (
           <i className="block md:hidden bx bx-x bx-md" onClick={handleToggle}></i>
         ) : (
